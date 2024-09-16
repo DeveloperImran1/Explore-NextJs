@@ -1,5 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import Footer from "@/components/Footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -25,7 +26,7 @@ export default function RootLayout({ children }) {
       >
         <p>I am a Paragrapgh for headig show</p>
         {children}
-        <p>This is a footer</p>
+       <Footer></Footer>
       </body>
     </html>
   );
