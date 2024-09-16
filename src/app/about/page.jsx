@@ -5,8 +5,6 @@ const aboutPage = () => {
     return (
         <div>
       <AboutPageContent></AboutPageContent>
-      <p>Ami Imran add koresi ai line</p>
-      <p>Ami Imran add koresi 3rd line for testing purpose</p>
         </div>
     );
 };
