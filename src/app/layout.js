@@ -23,7 +23,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <p>I am a Paragrapgh for headig show</p>
         {children}
+        <p>This is a footer</p>
       </body>
     </html>
   );
