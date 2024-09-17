@@ -34,6 +34,10 @@ const NavBar = () => {
             title: "Categories",
             path: "/categories"
         },
+        {
+            title: "Dashboard",
+            path: "/dashboard"
+        },
     ]
 
     if(pathName.includes('/dashboard')) return <div className='p-9 text-center '>This is Dashboard Navbar</div>
